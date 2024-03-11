@@ -2,6 +2,6 @@
 
 npm install yarn
 
-yarn add
+yarn add xxx
 
 npm start
