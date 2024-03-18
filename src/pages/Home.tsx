@@ -1,6 +1,6 @@
 import Counter from '../components/Counter';
 import About from "./About";
-const  View = () => {
+const View = () => {
     return (
         <div className='home'>
             <p>Home</p>
