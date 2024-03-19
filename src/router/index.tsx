@@ -1,9 +1,9 @@
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 import Loading from "../components/Loading";
 // import About from "../pages/About";
 // import User from "../pages/User";
-import React, {lazy} from "react";
-import {Navigate} from "react-router-dom";
+import React, { lazy } from "react";
+import { Navigate } from "react-router-dom";
 import Page31 from "../pages/Page31";
 import Login from "../pages/Login";
 
@@ -59,7 +59,7 @@ const routes = [
     },
     {
         path: '*',
-        element:  <Navigate to="/home" />
+        element: <Navigate to="/home" />
     }
 ]
 export default routes
