@@ -11,9 +11,9 @@ import { Card } from 'antd';
 const View = () => {
 
     return (
-        <div className='home h-full'>
+        <div className='home h-2/3'>
             {/* Header */}
-            <header className="bg-cover relative" style={{ backgroundImage: `url(${header})`, height: "100%", opacity: "80%" }}>
+            <header className="bg-cover relative" style={{ backgroundImage: `url(${header})`, height: "100%", opacity: "80%", backgroundSize: "cover", backgroundPosition: "center" }}>
                 <NavBar />
                 <div className="flex flex-col gap-4 absolute bottom-12 left-28">
                     <h2 className="flex flex-col text-6xl text-white font-manrope leading-82">
@@ -24,7 +24,7 @@ const View = () => {
                 </div>
             </header>
             {/* Hot Posts */}
-            <div className="h-1/2">
+            <div className="h-full">
 
                 <div className="flex items-center gap-8 mt-12 ml-28">
                     <div className="posts-title text-red_primary font-marcellus text-7xl font-normal leading-100">Forum hot posts</div>
