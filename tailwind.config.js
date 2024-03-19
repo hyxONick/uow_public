@@ -14,6 +14,8 @@ module.exports = {
         primary_text: "rgba(255, 56, 92, 1)",
         secondary_text: "rgba(57, 57, 57, 1)",
         white_text: "rgba(255, 255, 255, 1)",
+        blue_text: "rgba(0, 10, 255, 1)",
+
         red_primary: "rgba(255, 56, 92, 1)",
         red_secondary: "rgba(153, 34, 55, 1)",
       },

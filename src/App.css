@@ -19,9 +19,13 @@
     font-family: 'Marcellus', serif;
 }
 
+body {
+    background-color: white;
+}
 
 .App {
     height: 100vh;
+
 }
 
 /*.App {*/
