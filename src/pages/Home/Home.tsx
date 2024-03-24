@@ -2,6 +2,7 @@ import cardsList from "./CardsList";
 import newsList from "./newsList";
 import { Card } from 'antd';
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -63,7 +64,14 @@ const View = () => {
 
                     )
                 })}
+
+                <Footer />
+
             </div>
+
+            {/* Footer */}
+
+
         </div>
     );
 }

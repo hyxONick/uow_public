@@ -1,9 +1,16 @@
+import huladance from "../../assets/images/hotposts/huladance.jpg";
+import partytime from "../../assets/images/hotposts/partytime.jpg";
+import winterwater from "../../assets/images/hotposts/winterwater.jpg";
+import swimmer from "../../assets/images/hotposts/swimmer.jpg";
 
-import huladance from "../../assets/images/hotposts/huladance.jpg"
-import partytime from "../../assets/images/hotposts/partytime.jpg"
-import winterwater from "../../assets/images/hotposts/winterwater.jpg"
-import swimmer from "../../assets/images/hotposts/swimmer.jpg"
-const cardsList = [
+interface Card {
+    image: string;
+    alt: string;
+    description: string;
+    date: string;
+}
+
+const cardsList: Card[] = [
     {
         image: huladance,
         alt: "huladance",
@@ -28,6 +35,6 @@ const cardsList = [
         description: "Recent events photo released",
         date: "6 March"
     },
-]
+];
 
-export default cardsList
+export default cardsList;

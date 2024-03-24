@@ -6,12 +6,14 @@ import React, { lazy } from "react";
 import { Navigate } from "react-router-dom";
 import Page31 from "../pages/Page31";
 import Login from "../pages/Login";
+import Page2 from "../pages/Page2";
+import Page1 from "../pages/Page1";
 
 const About = lazy(() => import("../pages/About"))
 const User = lazy(() => import("../pages/User"))
 const Manage = lazy(() => import("../pages/Manage"))
-const Page1 = lazy(() => import("../pages/Page1"))
-const Page2 = lazy(() => import("../pages/Page2"))
+// const Page1 = lazy(() => import("../pages/Page1"))
+// const Page2 = lazy(() => import("../pages/Page2"))
 
 const routes = [
     {
@@ -21,6 +23,14 @@ const routes = [
     {
         path: "/home",
         element: <Home />
+    },
+    {
+        path: "/page1",
+        element: <Page1/>
+    },
+    {
+        path: "/page2",
+        element: <Page2/>
     },
     {
         path: "/login",
