@@ -7,12 +7,12 @@ import { Navigate } from "react-router-dom";
 import Page31 from "../pages/Page31";
 import Login from "../pages/Login";
 import Page2 from "../pages/Page2";
-import Page1 from "../pages/Page1";
+import Activity from "../pages/Activity/Activity";
 
 const About = lazy(() => import("../pages/About"))
 const User = lazy(() => import("../pages/User"))
 const Manage = lazy(() => import("../pages/Manage"))
-// const Page1 = lazy(() => import("../pages/Page1"))
+// const Activity = lazy(() => import("../pages/Activity"))
 // const Page2 = lazy(() => import("../pages/Page2"))
 
 const routes = [
@@ -25,12 +25,12 @@ const routes = [
         element: <Home />
     },
     {
-        path: "/page1",
-        element: <Page1/>
+        path: "/activity",
+        element: <Activity />
     },
     {
         path: "/page2",
-        element: <Page2/>
+        element: <Page2 />
     },
     {
         path: "/login",
@@ -54,8 +54,8 @@ const routes = [
         element: <Loading comp={<Manage />} page="Mser" />,
         children: [
             {
-                path: "/manage/page1",
-                element: <Loading comp={<Page1 />} page="Page1" />
+                path: "/manage/activity",
+                element: <Loading comp={<Activity />} page="Activity" />
             },
             {
                 path: "/manage/page2",
