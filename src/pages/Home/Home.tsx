@@ -10,10 +10,9 @@ import Footer from "../../components/Footer/Footer";
 const View = () => {
 
     return (
-        <div className='home h-2/3'>
+        <div className='home'>
             {/* Header */}
-            <Header />
-
+            <div style={{height: "66.6vh"}}> <Header /> </div>
             {/* Hot Posts */}
             <div className="h-2/3">
 
