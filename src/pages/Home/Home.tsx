@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 
 
 
-const View = () => {
+const View: React.FC = () => {
 
     return (
         <div className='home'>
