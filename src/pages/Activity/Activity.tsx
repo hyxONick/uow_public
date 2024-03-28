@@ -2,7 +2,7 @@ import activityList from "./activityList";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
-const  Activity = () => {
+const  Activity: React.FC = () => {
     return (
         <div className='home h-2/3'>
             <Header />
