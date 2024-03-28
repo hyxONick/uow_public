@@ -11,7 +11,7 @@ const Loading: React.FC<LoadingProps> = ({ comp, page }) => {
             fallback={
                 <div className='container'>
                     <div className="loader"></div>
-                    <div className="loading-text">{page} 正在加载...</div>
+                    <div className="loading-text">{page} Loading...</div>
                 </div>
             }
         >

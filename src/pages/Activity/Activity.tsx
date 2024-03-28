@@ -22,7 +22,7 @@ const  Activity = () => {
             </div>
 
             <div className="new_act h-1/2 flex m-20 gap-16">
-                {(activityList.withInfo|| []).map((act: {
+                {(activityList.withInfo || []).map((act: {
                     name: string;
                     information: string;
                     imageUrl: string;
@@ -40,7 +40,7 @@ const  Activity = () => {
             <div className="read-bar gap-16 bg-red-500 mt-20 h-10"></div>
 
             <div className="new_act2 h-1/2 flex m-20 gap-16">
-                {(activityList.withoutInfo|| []).map((act: {
+                {(activityList.withoutInfo || []).map((act: {
                     name: string;
                     imageUrl: string;
                 }) => {
