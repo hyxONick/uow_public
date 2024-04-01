@@ -5,7 +5,7 @@ import headerImg from "../assets/images/header.jpg";
 const  Page2 = () => {
     return (
         <header className="bg-cover relative" style={{ backgroundImage: `url(${headerImg})`, height: "100%", opacity: "80%", backgroundSize: "cover", backgroundPosition: "center" }}>
-            <NavBar />
+            <NavBar textColor="primary_text"/>
             <div className="flex flex-col gap-4 absolute bottom-12 left-28">
                 <h2 className="flex flex-col text-6xl text-white font-manrope leading-82">
                     <span>Graduate Careers</span>

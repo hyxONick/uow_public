@@ -56,7 +56,7 @@ const MainMenu: React.FC = () => {
     }
 
     let firstOpenKey: string = '';
-    items.forEach((item) => {
+    items.forEach((item:any) => {
         if (item!['children'] && item!['children'].length && item!['children'].find((k:{key:string}) =>{ return  k.key === manageRoute})) {
             firstOpenKey = item!.key as string;
         }
