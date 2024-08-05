@@ -46,8 +46,8 @@ const routes = [
     },
     {
         path: "/manage",
-        element: <Navigate to="./page1" />
-        // element: <Loading comp={<Manage />} page="Mser" />
+        // element: <Navigate to="./page1" />
+        element: <Loading comp={<Manage />} page="Mser" />
     },
     {
         path: "/manage",
